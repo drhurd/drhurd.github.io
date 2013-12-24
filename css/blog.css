@@ -86,6 +86,7 @@ a:focus {
 .post {
     padding-bottom: 2em;
 }
+
 .post-title {
     font-size: 2em;
     color: #222;
@@ -93,7 +94,8 @@ a:focus {
 }
 .post-avatar {
     border-radius: 50px;
-    float: right;
+    /*float: right;*/
+    margin-left: 100%;
     margin-left: 1em;
 }
 .post-description {
