@@ -3,9 +3,14 @@ layout: default
 ---
 <a href="/">Back</a>
 
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+  <!-- Post header -->
+  <header class="post-header">
+    <h2 class="post-title"> {{ page.title }} </h2>
+    <h3 class="post-subtitle"> {{ page.subtitle }} </h3>
+    <p class="post-meta"> {{ page.date | date_to_string }} </p>
+  </header>
 
-<div class="post">
-{{ content }}
-</div>
+  <!-- Post excerpt -->
+  <div class="post-description">
+      <p> {{ content }} </p>
+  </div>
