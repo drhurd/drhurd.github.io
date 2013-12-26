@@ -6,8 +6,8 @@
 
 
 @font-face {
-    font-family: "Raleway";
-    src: url("/fonts/Raleway-Medium.otf");
+    font-family: "Quicksand";
+    src: url("/fonts/Quicksand-Light.otf");
 }
 
 @font-face {
@@ -15,6 +15,10 @@
     src: url("/fonts/Chunkfive.otf");
 }
 
+@font-face {
+    font-family: "DejaVuSerif";
+    src: url("/fonts/DejaVuSerif.ttf");
+}
 
 a {
     text-decoration: none;
@@ -39,6 +43,7 @@ a:focus {
     margin-left: -25%;
     background: rgb(24, 33, 61);
     color: #fff;
+    font-family: "Quicksand";
 }
 
 .header {
@@ -55,6 +60,7 @@ a:focus {
     text-transform: uppercase;
 }
 .brand-tagline {
+    font-family: "Quicksand";
     font-weight: 300;
     color: rgb(142, 142, 214);
 }
@@ -73,6 +79,7 @@ a:focus {
     background: transparent;
     border: 3px solid rgb(103, 103, 180);
     color: #fff;
+    font-family: "Quicksand";
     margin-top: 1em;
 }
 .nav-item a:hover,
@@ -93,10 +100,11 @@ a:focus {
 }
 
 .content {
-    padding: 2em 3em 0;
+    padding: 5em 6em 0;
 }
 
 .post {
+    font-family: "Quicksand";
     padding-bottom: 2em;
 }
 
@@ -118,8 +126,10 @@ a:focus {
     margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
-    color: #444;
+    color: #333332;
+    font-family: "DejaVuSerif", Georgia, "Cambria", serif;
+    font-size: 18px;
+    letter-spacing: 0.01rem;
     line-height: 1.8em;
 }
 .post-meta {
@@ -151,6 +161,7 @@ a:focus {
 .post-images {
     margin: 1em 0;
 }
+
 .post-image-meta {
     margin-top: -3.5em;
     margin-left: 1em;
