@@ -100,7 +100,29 @@ a:focus {
 }
 
 .content {
-    padding: 5em 6em 0;
+  padding: 5em 6em 0;
+}
+
+.portfolio-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-image {
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.portfolio-description {
+  font-family: "Quicksand";
+  padding-bottom: 2em;
+  text-align: center;
 }
 
 .post {
@@ -137,7 +159,6 @@ a:focus {
     font-size: 90%;
     margin: 0;
 }
-
 .post-category {
     margin: 0 0.1em;
     padding: 0.3em 1em;
