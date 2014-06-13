@@ -1,0 +1,37 @@
+---
+layout: new
+---
+<!Doctype html>
+<html>
+<head>
+	<!-- Page Title -->
+	<title>{{ page.title }}</title>
+
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="/css/new.css"/>
+
+	<!-- Jquery -->
+	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<ul class="nav nav-pills pull-right">
+				<li id="blog-link"><a href="/">Blog</a></li>
+				<li id="who-link"><a href="#">Who I am</a></li>
+				<li id="what-link"><a href="#">What I've done</a></li>
+			</ul>
+			<h2>Dylan Hurd</h2> 
+		</div>
+	</div>
+
+	<div class="content container">
+		{{ content }}
+	</div>
+
+</body>
+</html>

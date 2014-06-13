@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "DejaVuSerif";
+    src: url("/fonts/DejaVuSerif.ttf");
+}
+
+.post-excerpt {
+	font-family: "DejaVuSerif";
+	font-size: 1.2em;
+}
+
+.post-text {
+	font-family: "DejaVuSerif";
+	font-size: 1.4em;	
+}
+
+/* reduce maximum width */
+@media (min-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+}

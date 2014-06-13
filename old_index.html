@@ -1,0 +1,33 @@
+---
+layout: default
+title: Dylan Hurd
+---
+
+
+
+<div id="home">
+  <div class="posts">
+
+    {% for post in site.posts %}
+      <section class="post">
+        <!-- Post header -->
+        <header class="post-header">
+          <h2 class="post-title"> {{ post.title }} </h2>
+          <p class="post-meta"> {{ post.date | date_to_string }} </p>
+        </header>
+
+        <!-- Post excerpt -->
+        <div class="post-description">
+            <p> {{ post.excerpt}} </p>
+        </div>
+        
+        <!-- Post footer -->
+        <footer class="post-footer">
+          <a href=" {{ post.url }}"> Read more </a>
+        </footer>
+
+      </section>
+    {% endfor %}
+
+  </div>
+</div>
