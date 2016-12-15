@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  {% include post.html post=post content=post.content %}
+{% for post in site.posts %}
+  <h2> {{ post.title }} </h2>
+  <div class="date-line">
+    <h4> {{ post.date | date_to_string }} </h4>
+    <a href="{{ post.url }}">Read more</a>
+  </div>
+  <div> {{ post.excerpt }} </div>
 {% endfor %}
-
-{% if paginator.total_pages > 1 %}
-    {% include pagination.html maxPages=5 %}
-{% endif %}
