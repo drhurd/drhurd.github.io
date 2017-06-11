@@ -46,10 +46,12 @@ body {
 
 .sidebar {
   padding-left: 2rem;
+  min-width: 175px;
 }
 
 .content {
   padding-left: 4rem;
+  max-width: 700px;
 }
 
 h1, h2, p {
@@ -72,12 +74,12 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 a {
   color: #4990E2;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
