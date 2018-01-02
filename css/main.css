@@ -77,6 +77,15 @@ p {
   font-size: 1.1rem;
 }
 
+ol {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
 a {
   color: #4990E2;
   font-size: 1.1rem;
